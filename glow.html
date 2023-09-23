@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+    button{
+        margin-top: 10px; 
+        margin-left: 650px;
+    }
+    p{
+      font-size: 20px;
+    }
+body {
+  background-color: black;
+  font-family:'Times New Roman', Times, serif;
+}
+
+.glow {
+  font-size: 80px;
+  color: #fff;
+  text-align: center;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+
+@keyframes glow {
+  from {
+    /* text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px aqua, 0 0 40px aqua, 0 0 50px aqua, 0 0 60px aqua, 0 0 70px aqua; */
+    text-shadow: 0 0 0 0 white;
+  }
+  
+  to {
+    text-shadow: 0 0 20px red, 0 0 30px aqua, 0 0 40px aqua, 0 0 50px aqua, 0 0 60px aqua, 0 0 70px aqua, 0 0 80px aqua;
+  }
+}
+</style>
+</head>
+<body onload="typeWriter()">
+<p id="demo" class="glow"></p>
+
+<script>
+var i = 0;
+var txt='COMING SOON'
+var txt='COMING SOON'
+var txt='COMING SOON'
+// var txt = ' Om deva deva om deva deva namah Namaho namah om Om deva deva Om deva deva namah Namaho namah om Mehsoos khud ko maine kiya Jab tu ne chhua Om deva deva Om deva deva namah Namaho namah om Ishq humara nahi ye fitoor hai Rishta purana koi toh zaroor hai Aake mile hain usi ke toh vaaste Ye raaste, ye raaste Tu hai hawaon ka jhonka Main aag hoon Tu raagdaari hai meri Main raag hoon Main jee raha hoon tere intezar mein Aawaaz de, aawaaz de Teri saraaye dhoondh raha tha Mera banjaara mann Sab such mera karke fanaa Karta hoon main hawan Om deva deva Om deva deva namah Namaho namah om Om deva deva Om deva deva namah Namaho namah om';
+var speed = 400;
+function typeWriter() {
+  if (i < txt.length) {
+    document.getElementById("demo").innerHTML += txt.charAt(i);
+    i++;
+    setTimeout(typeWriter, speed);
+  }
+
+}
+</script>
+     
+</body>
+</html> 
