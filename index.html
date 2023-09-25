@@ -1,56 +1,95 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<style>
-    button{
-        margin-top: 10px; 
-        margin-left: 650px;
-    }
-    p{
-      font-size: 20px;
-    }
-body {
-  background-color: black;
-  font-family:'Times New Roman', Times, serif;
-}
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alex Bhusal</title>
+    <link rel="icon" href="./Desktop/IMG_0925.JPG" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="./style.css">
 
-.glow {
-  font-size: 80px;
-  color: #fff;
-  text-align: center;
-  animation: glow 1s ease-in-out infinite alternate;
-}
-
-@keyframes glow {
-  from {
-    /* text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px aqua, 0 0 40px aqua, 0 0 50px aqua, 0 0 60px aqua, 0 0 70px aqua; */
-    text-shadow: 0 0 0 0 white;
-  }
-  
-  to {
-    text-shadow: 0 0 20px red, 0 0 30px aqua, 0 0 40px aqua, 0 0 50px aqua, 0 0 60px aqua, 0 0 70px aqua, 0 0 80px aqua;
-  }
-}
-</style>
 </head>
-<body onload="typeWriter()">
-<p id="demo" class="glow"></p>
 
-<script>
-var i = 0;
-var txt='Website under development'
-// var txt = ' Om deva deva om deva deva namah Namaho namah om Om deva deva Om deva deva namah Namaho namah om Mehsoos khud ko maine kiya Jab tu ne chhua Om deva deva Om deva deva namah Namaho namah om Ishq humara nahi ye fitoor hai Rishta purana koi toh zaroor hai Aake mile hain usi ke toh vaaste Ye raaste, ye raaste Tu hai hawaon ka jhonka Main aag hoon Tu raagdaari hai meri Main raag hoon Main jee raha hoon tere intezar mein Aawaaz de, aawaaz de Teri saraaye dhoondh raha tha Mera banjaara mann Sab such mera karke fanaa Karta hoon main hawan Om deva deva Om deva deva namah Namaho namah om Om deva deva Om deva deva namah Namaho namah om';
-var speed = 400;
-function typeWriter() {
-  if (i < txt.length) {
-    document.getElementById("demo").innerHTML += txt.charAt(i);
-    i++;
-    setTimeout(typeWriter, speed);
-  }
 
-}
-</script>
-     
-</body>
-</html> 
+        <body onload="typeWriter()" on oncontextmenu="return false ">
+            <div id="ms">
+            <div id="nav">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li id="alexx"><a href=""><b>Alex</b></a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#con">Contact</a></li>
+                </ul>
+            </div>
+                <div id="#home">
+                     <p id="demo" class="glow"></p>
+                     <h1><span id="spn"> </span></h1>
+
+            </div>
+        </div> 
+        <br><br><br><br><br>
+        <div id="about">
+        <u>About Me</u>
+        <div id="abt">
+        <div id="aboutt">
+            <br><br>
+            <img src="./Desktop/IMG_4673.JPG" height="1000px" weidth="1000px">
+        </div>
+        <div id="txt">
+            <h1>Eat=> Sleep=> Code=> Repeat=></h1>
+            <p>A web designer, programmer and front end developer from Nepal, Butwal who loves coding and the digital world.</p>
+            <p>A whizz at website and UI design, full stack developer. Always on lockout for exciting projects to work on. Hire Me For any kinds of work enlisted before.</p>
+            <b>
+                <a href="" download="alex-cv">Download my CV</a>
+            </b>
+        </div>
+    </div>
+</div>
+        <br><br><br><br><br>
+
+        
+        <div id="skills">
+            <u>Skills</u>
+            <br><br><br>
+            <div id="word">WORDPRESS</div>
+            <div id="html">HTML/CSS</div>
+            <div id="js">JAVASCRIPT</div>
+            <div id="python">PYTHON</div>
+            <div id="mysql">MY SQL</div>
+            <div id="c">C</div>
+            <div id="java">JAVA</div>
+            <div id="php">PHP</div>
+
+
+        </div>
+
+        <br><br><br><br><br>
+            
+            <div id="con">
+                <p id="ab"> <u>Contact Me</u></p><br><br><br><br><br>
+                <form action="https://bhuvanbhusal.com.np" onsubmit="ok()">
+                    <input type="text" placeholder="Name" required>  <span>Email: alexbhusal@icloud.com</span> <br>
+                    <input type="email" placeholder="Email" required> <span>Phone: 9811064977</span> <br>
+                    <input type="submit" value="send message" id="smt" onclick="ok"> &emsp;&emsp;&nbsp;&nbsp;<span>Address: Butwal-13, Belbas</span>
+                </form>
+            </div>
+            <br><br><br><br><br><br><br>
+
+            <div class="foot">
+                <a href=""  id="nmb"><u>Alex Bhusal</u></a><br><br><br><br><br>
+                <a href="https://www.facebook.com/"target="_blank" id="icn"><i class="fa-brands fa-facebook fa-bounce"></i>Facebook</a>
+                <a href="https://www.instagram.com/"target="_blank" id="icn"><i class="fa-brands fa-instagram fa-shake"></i>Instagram</a>
+                <a href="https://twitter.com/"target="_blank" id="icn"><i class="fa-brands fa-x-twitter fa-fade"></i>Twitter</a>
+                <a href="https://github.com/alexbhusal/alexbhusal"target="_blank" id="icn"><i class="fa-brands fa-github fa-beat"></i>Github</a>
+                <br><br><br><br>
+                <p id="copy">Copyright &copy <script>document.write(new Date().getFullYear());</script>
+                    All right reserved by <a href="https:bhuvanbhusal.com.np" target="_blank">AlexBhusal</a>
+                </p>
+
+
+            </div>
+
+            
+        </body>
+</html>
