@@ -92,10 +92,9 @@ form input{
 margin-left: 250px;
 }
 
-span{
-padding-left: 200px;
+span a{
+padding-left: 250px;
 font-size: xx-large;
-
 }
 input{
 background-color: transparent;
@@ -132,7 +131,7 @@ padding-left: 30px;
 u{
  text-decoration-style:wavy ;
  padding: 2px;
- text-decoration-color: red;
+ text-decoration-color: white;
  
 }
 ::selection{
@@ -200,8 +199,6 @@ color: white;
 #skills u,#about u{
     margin-left: 600px;
     font-size: xxx-large;
-
-
 }
 
 #skills div{
@@ -221,7 +218,7 @@ color: white;
     font: 700 normal 2.5em 'tahoma';
     text-shadow: 5px 2px #222324, 2px 4px #222324, 3px 5px #222324;
   }
-#txt hr{
+#hr{
     color:red;
     
     }
