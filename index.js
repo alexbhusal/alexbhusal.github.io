@@ -8,5 +8,8 @@ function typeWriter() {
     i++;
     setTimeout(typeWriter, speed);
   }
+}
 
+function ok() {
+  alert("Alex will contact you soon...");
 }
