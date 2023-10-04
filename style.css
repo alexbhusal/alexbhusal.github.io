@@ -212,16 +212,16 @@ color: white;
      /* -------------------------------------------------------------------------------------------------------- */
     @media(max-width:900px){
         body{
-            text-align:center;
+            text-align: center;
         }
         #ms{
             width:100% ;
             height:230px;
         }
         .glow {
-                margin-top:25px;
-                margin-left:190px;
-                font-size: 10px;
+                margin-top:-40px;
+                margin-left:150px;
+                font-size: 30px;
         }
         #nav li{
             display: none;
@@ -241,6 +241,7 @@ color: white;
         }
         span{
         padding-left: 50px;
+        padding-top:100px;
         font-size: x-large;
         }
         #copy{
@@ -260,7 +261,7 @@ color: white;
             font-size: 20px;
         }
         #spn{
-            margin-left:100px;
+            margin-left:130px;
         }
         #aboutt{
             text-align: center;    
