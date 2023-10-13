@@ -7,7 +7,7 @@ body{
 #ms{
     width:100% ;
     height:100vh;
-    background-image: url(IMG_3910.jpeg);
+    background-image: url(./image/IMG_3910.jpeg);
     background-repeat: no-repeat;
     background-size:cover;
 }
@@ -90,6 +90,7 @@ margin-left: 200px;
 span{
 padding-left: 250px;
 font-size: xx-large;
+color: white;
 }
 input{
 background-color: transparent;
@@ -154,6 +155,9 @@ color: white;
     75% {
         content: "Developer";
     }
+    100%{
+        content: "Freelencer";
+    }
 }
 #smt{
     margin-left: 335px;
@@ -169,8 +173,8 @@ color: white;
     
 }
 #aboutt img{
-    margin-left: 100px;
-    margin-top: 100px;
+    margin-left: 10px;
+    margin-top: 10px;
 }
 
 #txt p,#txt h1{            
@@ -207,24 +211,28 @@ color: white;
 #hire{
     color:red;
     }
+    .fin{
+        display: flex;
+    }
+    
 
      /* -------------------------------------------------------------------------------------------------------- */
      /* -------------------------------------------------------------------------------------------------------- */
     @media(max-width:900px){
-        body{
-            text-align: center;
-        }
         #ms{
             width:100% ;
             height:230px;
         }
         .glow {
-                margin-top:-40px;
-                margin-left:150px;
+                margin-top:-50px;
+                margin-left:20px;
                 font-size: 30px;
         }
         #nav li{
             display: none;
+        }
+        #nav{
+            margin-left: 0;
         }
         
         #ab{
@@ -238,11 +246,12 @@ color: white;
         }
         form input{
         display: none;
+        margin: 0;
         }
         span{
-        padding-left: 50px;
+        padding-left:10px;
         padding-top:100px;
-        font-size: x-large;
+        font-size:larger;
         }
         #copy{
         padding-bottom: 10px;
@@ -255,8 +264,7 @@ color: white;
             padding-left: 30px;
             padding-top: 20px;
 
-        }
-        
+        }    
         #spn::before {
             font-size: 20px;
         }
@@ -274,11 +282,12 @@ color: white;
         #txt h1{
             font-size: x-large;
             margin-top: 50px;
-            margin-left: 10px;  
+            margin-left: 20px;  
         }
          
         #ab u,#nmb u{
             font-size: x-large;
+
         }
         #skills u,#about u{
             margin-left: 100px;
@@ -292,12 +301,30 @@ color: white;
             margin-left: 30px;
         }
         #txt b{
-            margin-left:80px;
+            margin-left:30px;
             font-size: x-large;
-            margin-top: 20px;
+            margin-top: -20px;
         }
-        img{
-            display: none;
+        #abt{
+            display: flex;
+            flex-direction: column;
+        }
+        #mgg{
+            height: 500px;
+            width: 90%;
+            border: 5px solid white;
+            border-radius: 50px;
+        }
+        .info{
+        border: 2px solid white;
+        border-radius: 10px;
+        padding: 10px;
+        }
+        .soc{
+            border: 2px solid white;
+            border-radius: 10px;
+            padding: 10px;
+
         }
 
     }
