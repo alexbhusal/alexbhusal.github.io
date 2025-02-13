@@ -60,10 +60,12 @@
                 <p id="ab"> <u>Contact Me</u></p><br><br><br><br><br>
                 <div class="fin">
                     <div class="frm">
-                        <form action="https://bhuvanbhusal.com.np" onsubmit="ok()">
-                            <input type="text" placeholder="Name" required><br>
-                            <input type="email" placeholder="Email" required><br>
+                        <form action="https://api.web3forms.com/submit" onsubmit="ok()">
+                            <input type="hidden" name="access_key" value="bf0b80b3-314c-4277-bcd8-9eeb773abf67">
+                            <input type="text" placeholder="Name" name="Email" required><br>
+                            <input type="email" placeholder="Email" name="Email" required><br>
                             <div class="cf-turnstile" data-sitekey="0x4AAAAAAALnMnbB8dFDHVyn"id="very"></div>
+                            <input type="hidden" name="redirect" value="https://bhuvanbhusal.com.np">
                             <input type="submit" value="send message" id="smt" onclick="ok">
                         </form>
                     </div>
